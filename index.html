@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHA Tours - Explore the World</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" style="font-size: 1.5rem;">
+                <i class="fas fa-plane"></i> SHA Tours
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600') center/cover; min-height: 85vh; display: flex; align-items: center; color: white;">
+        <div class="container text-center">
+            <h1 class="display-1 fw-bold mb-4" style="text-shadow: 3px 3px 6px rgba(0,0,0,0.7);">Discover Your Next Adventure</h1>
+            <p class="lead mb-5" style="font-size: 1.8rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Create unforgettable memories across the globe</p>
+            <a href="destinations.html" class="btn btn-lg me-3" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border: none; padding: 15px 45px; border-radius: 50px; font-weight: 600; box-shadow: 0 5px 15px rgba(245,87,108,0.4);">Explore Destinations</a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg" style="padding: 15px 45px; border-radius: 50px; border-width: 2px; font-weight: 600;">Plan Your Trip</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container">
+            <div class="text-center mb-5" style="color: white;">
+                <h2 class="display-4 fw-bold mb-3">Why Choose SHA Tours?</h2>
+                <p class="lead">Your trusted partner for extraordinary travel experiences</p>
+            </div>
+            <div class="row text-center text-white">
+                <div class="col-md-3 mb-4">
+                    <div class="p-4">
+                        <i class="fas fa-globe-americas fa-4x mb-3" style="color: #ffd700;"></i>
+                        <h4 class="fw-bold">200+ Destinations</h4>
+                        <p>Explore amazing places worldwide</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4">
+                        <i class="fas fa-users fa-4x mb-3" style="color: #ffd700;"></i>
+                        <h4 class="fw-bold">50,000+ Travelers</h4>
+                        <p>Join our community of happy explorers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4">
+                        <i class="fas fa-award fa-4x mb-3" style="color: #ffd700;"></i>
+                        <h4 class="fw-bold">Award Winning</h4>
+                        <p>Recognized excellence in service</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="p-4">
+                        <i class="fas fa-headset fa-4x mb-3" style="color: #ffd700;"></i>
+                        <h4 class="fw-bold">24/7 Support</h4>
+                        <p>We're here whenever you need us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold" style="color: #1e3c72;">Featured Destinations</h2>
+                <p class="lead text-muted">Handpicked locations for your perfect getaway</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500" class="card-img-top" alt="Paris" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Paris, France</h5>
+                                <span class="badge" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 8px 15px;">Popular</span>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i class="fas fa-clock"></i> 7 Days</p>
+                            <p class="card-text">Experience romance in the City of Light with iconic landmarks and world-class cuisine.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.2rem; font-weight: bold;">370,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <a href="destinations.html" class="btn btn-sm" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 8px 20px; border-radius: 20px;">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=500" class="card-img-top" alt="Bali" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Bali, Indonesia</h5>
+                                <span class="badge bg-success" style="padding: 8px 15px;">Best Value</span>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Asia | <i class="fas fa-clock"></i> 5 Days</p>
+                            <p class="card-text">Discover tropical paradise with stunning beaches, temples, and vibrant culture.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.2rem; font-weight: bold;">250,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <a href="destinations.html" class="btn btn-sm" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 8px 20px; border-radius: 20px;">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500" class="card-img-top" alt="Iceland" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Iceland</h5>
+                                <span class="badge bg-info" style="padding: 8px 15px;">Adventure</span>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i class="fas fa-clock"></i> 6 Days</p>
+                            <p class="card-text">Witness Northern Lights and explore breathtaking glaciers and waterfalls.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.2rem; font-weight: bold;">450,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <a href="destinations.html" class="btn btn-sm" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 8px 20px; border-radius: 20px;">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="destinations.html" class="btn btn-lg" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 12px 40px; border-radius: 50px; font-weight: 600;">View All Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold" style="color: #1e3c72;">What Our Travelers Say</h2>
+                <p class="lead text-muted">Real experiences from real travelers</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow h-100" style="border-radius: 15px;">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p class="card-text" style="font-style: italic;">"The best vacation we've ever had! Every detail was perfect, from booking to the actual trip. Highly recommend!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-weight: bold;">SM</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Sarah Mitchell</h6>
+                                    <small class="text-muted">Paris, France</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow h-100" style="border-radius: 15px;">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p class="card-text" style="font-style: italic;">"Outstanding service! The team made our honeymoon unforgettable. Thank you for the amazing experience!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; font-weight: bold;">JD</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">John Davis</h6>
+                                    <small class="text-muted">Bali, Indonesia</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow h-100" style="border-radius: 15px;">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                                <i class="fas fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p class="card-text" style="font-style: italic;">"Professional, reliable, and truly care about their customers. Will definitely book with them again!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; font-weight: bold;">EC</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Emma Chen</h6>
+                                    <small class="text-muted">Iceland</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-3">Subscribe to Our Newsletter</h2>
+                    <p class="lead">Get exclusive travel deals and destination guides delivered to your inbox!</p>
+                </div>
+                <div class="col-lg-6">
+                    <form class="row g-3">
+                        <div class="col-md-8">
+                            <input type="email" class="form-control form-control-lg" placeholder="Enter your email" style="border-radius: 50px; padding: 15px 25px;">
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-lg w-100" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border: none; border-radius: 50px; padding: 15px; font-weight: 600;">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #1a1a1a; color: white; padding: 50px 0 20px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="fw-bold mb-3"><i class="fas fa-plane"></i> SHA Tours</h4>
+                    <p style="color: #bbb;">Your trusted partner in creating unforgettable travel experiences around the world.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white" style="font-size: 1.5rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                        <li class="mb-2"><a href="about.html" style="color: #bbb; text-decoration: none;">About Us</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Destinations</a></li>
+                        <li class="mb-2"><a href="contact.html" style="color: #bbb; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Popular Destinations</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Paris, France</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Bali, Indonesia</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Dubai, UAE</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Santorini, Greece</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <p style="color: #bbb;"><i class="fas fa-map-marker-alt me-2"></i> St-4, Sector 17-D، St-4 N-5, Sector 17-D Karachi</p>
+                    <p style="color: #bbb;"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
+                    <p style="color: #bbb;"><i class="fas fa-envelope me-2"></i> info@shatours.com</p>
+                </div>
+            </div>
+            <hr style="border-color: #444; margin: 30px 0;">
+            <div class="text-center" style="color: #bbb;">
+                <p class="mb-0">&copy; 2025 SHA Tours. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

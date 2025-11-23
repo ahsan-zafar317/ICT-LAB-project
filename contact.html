@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SHA Tours</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" style="font-size: 1.5rem;">
+                <i class="fas fa-plane"></i> SHA Tours
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 100px 0; color: white;">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3">Get In Touch</h1>
+            <p class="lead" style="font-size: 1.3rem;">We'd love to hear from you and help plan your next adventure</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-7 mb-4">
+                    <div class="p-4" style="background: white; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+                        <h2 class="fw-bold mb-4" style="color: #1e3c72;">Send Us a Message</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label fw-bold">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="John" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Doe" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="john.doe@example.com" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+1 (555) 123-4567" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="destination" class="form-label fw-bold">Interested Destination</label>
+                                <select class="form-select" id="destination" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                                    <option selected>Select a destination</option>
+                                    <option value="paris">Paris, France</option>
+                                    <option value="bali">Bali, Indonesia</option>
+                                    <option value="santorini">Santorini, Greece</option>
+                                    <option value="dubai">Dubai, UAE</option>
+                                    <option value="iceland">Iceland</option>
+                                    <option value="maldives">Maldives</option>
+                                    <option value="tokyo">Tokyo, Japan</option>
+                                    <option value="switzerland">Swiss Alps</option>
+                                    <option value="newyork">New York, USA</option>
+                                    <option value="custom">Custom Package</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="travelers" class="form-label fw-bold">Number of Travelers</label>
+                                <input type="number" class="form-control" id="travelers" placeholder="2" min="1" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="travelDate" class="form-label fw-bold">Preferred Travel Date</label>
+                                <input type="date" class="form-control" id="travelDate" style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Tell us about your dream vacation..." style="border-radius: 10px; padding: 12px; border: 2px solid #e0e0e0;"></textarea>
+                            </div>
+                            <button type="submit" class="btn w-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 600;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-lg-5 mb-4">
+                    <div class="p-4 h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; color: white;">
+                        <h2 class="fw-bold mb-4">Contact Information</h2>
+                        <p class="mb-4">Feel free to reach out to us through any of the following channels. We're here to help!</p>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: rgba(255,255,255,0.2);">
+                                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Office Address</h6>
+                                    <p class="mb-0">St-4, Sector 17-D، St-4 N-5, Sector 17-D Karachi</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: rgba(255,255,255,0.2);">
+                                    <i class="fas fa-phone fa-lg"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Phone Number</h6>
+                                    <p class="mb-0">+1 (555) 123-4567</p>
+                                    <p class="mb-0">+1 (555) 987-6543</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: rgba(255,255,255,0.2);">
+                                    <i class="fas fa-envelope fa-lg"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Email Address</h6>
+                                    <p class="mb-0">info@shatours.com</p>
+                                    <p class="mb-0">support@shatours.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background: rgba(255,255,255,0.2);">
+                                    <i class="fas fa-clock fa-lg"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Business Hours</h6>
+                                    <p class="mb-0">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p class="mb-0">Saturday: 10:00 AM - 4:00 PM</p>
+                                    <p class="mb-0">Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-4" style="border-top: 1px solid rgba(255,255,255,0.3);">
+                            <h5 class="fw-bold mb-3">Follow Us</h5>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="text-white" style="font-size: 1.8rem; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="text-white" style="font-size: 1.8rem; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-white" style="font-size: 1.8rem; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="text-white" style="font-size: 1.8rem; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="text-white" style="font-size: 1.8rem; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="display-5 fw-bold" style="color: #1e3c72;">Visit Our Office</h2>
+                <p class="lead text-muted">Come see us in person for personalized travel consultation</p>
+            </div>
+            <div class="rounded shadow-lg overflow-hidden" style="height: 400px; background: #e0e0e0;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.2034778801562!2d67.2646838!3d24.8568991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3316c5276e35b%3A0x823a6a0100195ffd!2sFAST%20National%20University%20Karachi%20Campus!5e0!3m2!1sen!2s!4v1763309663932!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold" style="color: #1e3c72;">Frequently Asked Questions</h2>
+                <p class="lead text-muted">Quick answers to common questions</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3" style="border: none; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" style="border-radius: 10px;">
+                                    How do I book a tour?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can book a tour by browsing our destinations page, selecting your preferred package, and clicking the "Book Now" button. Alternatively, contact us directly and our team will assist you with the booking process.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3" style="border: none; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" style="border-radius: 10px;">
+                                    What payment methods do you accept?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept all major credit cards (Visa, MasterCard, American Express), debit cards, bank transfers, and PayPal. Payment plans are also available for bookings made more than 60 days in advance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3" style="border: none; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" style="border-radius: 10px;">
+                                    What is your cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Cancellations made 30+ days before departure receive a full refund minus a $100 processing fee. Cancellations 15-29 days before receive 50% refund. Cancellations within 14 days are non-refundable. We recommend travel insurance for added protection.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3" style="border: none; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" style="border-radius: 10px;">
+                                    Do you offer travel insurance?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer comprehensive travel insurance options covering trip cancellation, medical emergencies, lost luggage, and more. Our team can help you choose the right coverage for your needs.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3" style="border: none; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" style="border-radius: 10px;">
+                                    Can you create custom itineraries?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! We specialize in creating personalized travel experiences. Contact us with your preferences, interests, and budget, and we'll design a custom itinerary just for you.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-3">Ready to Start Planning?</h2>
+            <p class="lead mb-4">Our travel experts are standing by to help you plan your perfect vacation</p>
+            <a href="tel:+15551234567" class="btn btn-light btn-lg" style="padding: 15px 40px; border-radius: 50px; font-weight: 600; color: #f5576c;">
+                <i class="fas fa-phone me-2"></i>Call Us Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #1a1a1a; color: white; padding: 50px 0 20px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="fw-bold mb-3"><i class="fas fa-plane"></i> SHA Tours</h4>
+                    <p style="color: #bbb;">Your trusted partner in creating unforgettable travel experiences around the world.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white" style="font-size: 1.5rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                        <li class="mb-2"><a href="about.html" style="color: #bbb; text-decoration: none;">About Us</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Destinations</a></li>
+                        <li class="mb-2"><a href="contact.html" style="color: #bbb; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Popular Destinations</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Paris, France</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Bali, Indonesia</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Dubai, UAE</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Santorini, Greece</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <p style="color: #bbb;"><i class="fas fa-map-marker-alt me-2"></i> St-4, Sector 17-D، St-4 N-5, Sector 17-D Karachi</p>
+                    <p style="color: #bbb;"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
+                    <p style="color: #bbb;"><i class="fas fa-envelope me-2"></i> info@shatours.com</p>
+                </div>
+            </div>
+            <hr style="border-color: #444; margin: 30px 0;">
+            <div class="text-center" style="color: #bbb;">
+                <p class="mb-0">&copy; 2025 SHA Tours. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

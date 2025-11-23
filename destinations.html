@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - SHA Tours</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top"
+        style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" style="font-size: 1.5rem;">
+                <i class="fas fa-plane"></i> SHA Tours
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 100px 0; color: white;">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3">Explore Our Destinations</h1>
+            <p class="lead" style="font-size: 1.3rem;">Discover breathtaking places around the world</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-4" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <button class="btn"
+                            style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 30px; border-radius: 25px; font-weight: 600;">All
+                            Destinations</button>
+                        <button class="btn btn-outline-primary"
+                            style="padding: 10px 30px; border-radius: 25px; font-weight: 600;">Europe</button>
+                        <button class="btn btn-outline-primary"
+                            style="padding: 10px 30px; border-radius: 25px; font-weight: 600;">Asia</button>
+                        <button class="btn btn-outline-primary"
+                            style="padding: 10px 30px; border-radius: 25px; font-weight: 600;">America</button>
+                        <button class="btn btn-outline-primary"
+                            style="padding: 10px 30px; border-radius: 25px; font-weight: 600;">Adventure</button>
+                        <button class="btn btn-outline-primary"
+                            style="padding: 10px 30px; border-radius: 25px; font-weight: 600;">Beach</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Destination 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500"
+                                class="card-img-top" alt="Paris" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute"
+                                style="top: 15px; right: 15px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 8px 15px; font-size: 0.9rem;">Popular</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Paris, France</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.9</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i
+                                    class="fas fa-clock"></i> 7 Days</p>
+                            <p class="card-text mb-3">Experience the romance of Paris with visits to the Eiffel Tower,
+                                Louvre Museum, and charming Montmartre streets.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Hotel Included</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Meals Included</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Tour Guide</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">370,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=500"
+                                class="card-img-top" alt="Bali" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-success"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Best Value</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Bali, Indonesia</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.8</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Asia | <i
+                                    class="fas fa-clock"></i> 5 Days</p>
+                            <p class="card-text mb-3">Tropical paradise with pristine beaches, ancient temples, rice
+                                terraces, and vibrant Balinese culture.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Resort Stay</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Breakfast Included</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Airport Transfer</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">250,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?w=500"
+                                class="card-img-top" alt="Santorini" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-warning text-dark"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Trending</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Santorini, Greece</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">5.0</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i
+                                    class="fas fa-clock"></i> 6 Days</p>
+                            <p class="card-text mb-3">Stunning sunsets, white-washed buildings, crystal-clear waters,
+                                and authentic Greek cuisine await you.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Luxury Villa</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    All Meals</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Island Tours</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">450,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <!-- Destination 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=500"
+                                class="card-img-top" alt="Dubai" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-danger"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Luxury</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Dubai, UAE</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.7</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Middle East | <i
+                                    class="fas fa-clock"></i> 5 Days</p>
+                            <p class="card-text mb-3">Futuristic skyline, luxury shopping, desert safaris, and
+                                world-class entertainment in this modern metropolis.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    5-Star Hotel</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Desert Safari</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    City Tours</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">500,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+                                class="card-img-top" alt="Iceland" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-info"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Adventure</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Reykjavik, Iceland</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.9</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i
+                                    class="fas fa-clock"></i> 6 Days</p>
+                            <p class="card-text mb-3">Northern Lights, geothermal springs, dramatic waterfalls, and
+                                volcanic landscapes in the land of ice and fire.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Boutique Hotel</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Blue Lagoon</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Golden Circle</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">450,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1516815231560-8f41ec531527?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="card-img-top" alt="Maldives" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-danger"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Honeymoon</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Maldives</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">5.0</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Indian Ocean | <i
+                                    class="fas fa-clock"></i> 7 Days</p>
+                            <p class="card-text mb-3">Overwater bungalows, turquoise lagoons, coral reefs, and ultimate
+                                relaxation in this tropical paradise.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Water Villa</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    All-Inclusive</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Spa & Diving</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">650,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Destination 7 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?w=500"
+                                class="card-img-top" alt="Tokyo" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-primary"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Culture</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Tokyo, Japan</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.8</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Asia | <i
+                                    class="fas fa-clock"></i> 8 Days</p>
+                            <p class="card-text mb-3">Ancient temples meet modern skyscrapers, delicious cuisine, cherry
+                                blossoms, and unique Japanese culture.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Central Hotel</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i> JR
+                                    Pass Included</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Cultural Tours</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">480,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 8 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1523978591478-c753949ff840?w=500"
+                                class="card-img-top" alt="Switzerland" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-info"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">Mountains</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Swiss Alps, Switzerland</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.9</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> Europe | <i
+                                    class="fas fa-clock"></i> 7 Days</p>
+                            <p class="card-text mb-3">Majestic mountains, scenic train rides, chocolate factories, and
+                                charming alpine villages await.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Mountain Resort</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Swiss Pass</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Scenic Routes</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">540,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 9 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg h-100"
+                        style="border-radius: 20px; overflow: hidden; transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="position: relative;">
+                            <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=500"
+                                class="card-img-top" alt="New York" style="height: 280px; object-fit: cover;">
+                            <span class="badge position-absolute bg-secondary"
+                                style="top: 15px; right: 15px; padding: 8px 15px; font-size: 0.9rem;">City Break</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">New York, USA</h5>
+                                <div>
+                                    <i class="fas fa-star" style="color: #ffd700; font-size: 0.9rem;"></i>
+                                    <span class="fw-bold">4.7</span>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> North America | <i
+                                    class="fas fa-clock"></i> 5 Days</p>
+                            <p class="card-text mb-3">The city that never sleeps - Times Square, Central Park, Broadway
+                                shows, and iconic landmarks.</p>
+                            <div class="mb-3">
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Manhattan Hotel</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    Broadway Show</small><br>
+                                <small class="text-muted"><i class="fas fa-check-circle" style="color: #28a745;"></i>
+                                    City Pass</small>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span style="color: #f5576c; font-size: 1.3rem; font-weight: bold;">400,000 PKR</span>
+                                    <span class="text-muted">/person</span>
+                                </div>
+                                <button class="btn"
+                                    style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 10px 25px; border-radius: 25px; font-weight: 600;">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-3">Can't Find What You're Looking For?</h2>
+            <p class="lead mb-4">Let us create a custom package tailored to your preferences and budget</p>
+            <a href="contact.html" class="btn btn-light btn-lg"
+                style="padding: 15px 40px; border-radius: 50px; font-weight: 600; color: #f5576c;">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #1a1a1a; color: white; padding: 50px 0 20px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="fw-bold mb-3"><i class="fas fa-plane"></i> SHA Tours</h4>
+                    <p style="color: #bbb;">Your trusted partner in creating unforgettable travel experiences around the
+                        world.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3" style="font-size: 1.5rem;"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white" style="font-size: 1.5rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                        <li class="mb-2"><a href="about.html" style="color: #bbb; text-decoration: none;">About Us</a>
+                        </li>
+                        <li class="mb-2"><a href="destinations.html"
+                                style="color: #bbb; text-decoration: none;">Destinations</a></li>
+                        <li class="mb-2"><a href="contact.html" style="color: #bbb; text-decoration: none;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Popular Destinations</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Paris,
+                                France</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Bali,
+                                Indonesia</a></li>
+                        <li class="mb-2"><a href="destinations.html" style="color: #bbb; text-decoration: none;">Dubai,
+                                UAE</a></li>
+                        <li class="mb-2"><a href="destinations.html"
+                                style="color: #bbb; text-decoration: none;">Santorini, Greece</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <p style="color: #bbb;"><i class="fas fa-map-marker-alt me-2"></i> St-4, Sector 17-D، St-4 N-5, Sector 17-D Karachi</p>
+                    <p style="color: #bbb;"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
+                    <p style="color: #bbb;"><i class="fas fa-envelope me-2"></i> info@shatours.com</p>
+                </div>
+            </div>
+            <hr style="border-color: #444; margin: 30px 0;">
+            <div class="text-center" style="color: #bbb;">
+                <p class="mb-0">&copy; 2025 SHA Tours. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
